@@ -1,0 +1,26 @@
+/* Стили для центрирования содержимого */
+.centered-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Используем высоту всего экрана */
+  }
+  
+  /* Стили для заголовка и параграфов */
+  h1, p {
+    font-family: 'Arial', sans-serif;
+    color: #333; /* Тёмно-серый цвет текста */
+  }
+  
+  /* Стили для уникального параграфа студента */
+  p.student {
+    font-weight: bold;
+    color: #007bff; /* Синий цвет текста */
+  }
+  
+  /* Дополнительные стили для app-point, если нужно */
+  app-point {
+    margin-top: 20px; /* Пример отступа сверху */
+  }
+  

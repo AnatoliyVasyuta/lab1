@@ -1,0 +1,86 @@
+@import url('../app.component.css');
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 238, 0, 0.836);
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 20px;
+  width: 100%;
+  margin-right: 5%;
+  font-family: 'Spectral', serif;
+  color: #222222;
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: 0 10px 10px  rgba(0, 0, 0, 12); /* Тень формы */
+}
+
+fieldset {
+  width: 95%;
+  border: none;
+}
+
+input {
+  border: none;
+  background: transparent;
+  width: 25%;
+  height: 45px;
+  outline: none;
+  border-bottom: 1px solid #b7e4c7ff;
+  font-family: 'Spectral', serif;
+  color: #222222;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.input-invalid {
+  border-bottom: 1px dashed red;
+}
+
+.input_r {
+  width: 80%;
+}
+button {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  background-color: #070706;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  transition: background-color 0.15s ease-in-out, margin-top 0.15s ease-in-out;
+  margin-bottom: 1px;
+}
+
+button:hover {
+  color: #ffffff;
+  background-color: #d77f0b;
+
+}
+.flex_row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 150px;
+  height: 50px;
+  border: 1px solid #e1b168;
+  background-color: #f5ddb9;
+  font-family: 'Spectral', serif;
+  color: #232222;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
